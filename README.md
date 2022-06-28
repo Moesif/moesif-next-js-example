@@ -1,11 +1,13 @@
 # Moesif Next.js Example
 
-[Next](https://nextjs.org) is a popular React framework that gives you building blocks to create web applications.
+[Next](https://nextjs.org) is a popular React framework that gives you building blocks to create web applications. It primarily focus on building web UI, but it also supports building APIs on the sever side as well.
 
 [Moesif](https://www.moesif.com) is an API analytics platform.
+
 [moesif-nodejs](https://github.com/Moesif/moesif-nodejs)
-is a middleware for SERVER Jjs that makes integration with Moesif easy for Nodejs based apps including Next.
-[moesif-browser-js](https://github.com/Moesif/moesif-browser-js)
+is a middleware for SERVER that makes integration with Moesif easy for Nodejs based APIs including APIs that are build in Next.
+
+[moesif-browser-js](https://github.com/Moesif/moesif-browser-js) is a BROWSER only libraries that tracks user actions and user profiles so that you can tie those actions to the APIs. moesif-browser-js only runs in the browser, since next.js support server side rendering, there are some things you need to do to ensure only import moesif-browser-js on client side.
 
 This example is a Next.js application with Moesif's API analytics and monitoring integrated.
 
