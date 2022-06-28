@@ -4,7 +4,9 @@ import { useEffect } from 'react';
 function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
+    // if you are using server side rendering.
     // you can only import moesif-browser-js on the client side.
+    // useEffect or componentDidMount will ensure it only runs on client side.
     import('moesif-browser-js').then((moesif) => {
       moesif.init({
         applicationId: 'You Application Id'
