@@ -2,8 +2,6 @@
 
 let globalMoesif = null
 
-// technique 3.
-
 // so you can keep your action names consistent by having one central place for all the action names.
 export const ACTION_TYPES = {
   sign_in: 'sign_in',
@@ -14,7 +12,7 @@ if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
 
   import('moesif-browser-js').then((moesif) => {
     moesif.init({
-      applicationId: 'your action'
+      applicationId: 'your application id'
     });
     // this below assigns moesif object to the modually global moesif object.
     globalMoesif = moesif;
