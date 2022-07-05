@@ -4,7 +4,8 @@ let globalMoesif = null
 
 // technique 3.
 
-const ACTION_TYPES = {
+// so you can keep your action names consistent by having one central place for all the action names.
+export const ACTION_TYPES = {
   sign_in: 'sign_in',
   clicked_price: 'clicked_price',
 }
