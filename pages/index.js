@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { useEffect } from "react";
 const styles = {};
+
+import { track, identifyUser } from '../common/userTracking';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,8 +17,8 @@ export default function Home() {
         <button
           onClick={() => {
             // because window.moesif is already inited in _app.js
-            window.moesif.track("sign-in-now", { cta: "click to sign in" });
-            window.moesif.identifyUser("userId4", { email: "foo@moesif.com" });
+            track("sign-in-now", { cta: "click to sign in" });
+            identifyUser("userId4", { email: "foo@moesif.com" });
             window.alert(
               "an user action event sign-in-now is being sent, and userId with userId4 is being identified, assume you added your application id correctly you should see those data in moesif."
             );
