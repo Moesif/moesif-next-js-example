@@ -60,13 +60,14 @@ For client side, `moesif-browser-js` can not be used in server side rendering. I
 on the browser side.
 You can do this by using dynamic import, and do it in `useEffect` or `componentDidMount`. In this example, we init `moesif-browser-js` in the root `/pages/_app.js`.
 
-Add your application id to `/pages/_app.js`
+Add your PUBLISHABLE application id to `/pages/_app.js` 
 
 ```javascript
 moesif.init({
   applicationId: "Your Moesif Application Id",
 });
 ```
+Please use Publishable Application Id for anything in the browser, you can find it in your API keys page of Moesif. 
 
 In the browser, assign moesif to the windows global space, so anywhere on the client side, you can reference `window.moesif` to track any user actions or trigger identifyUser (usually when user sign up or logs in).
 
