@@ -2,7 +2,7 @@ import moesif from "moesif-nodejs";
 
 const moesifOptions = {
   applicationId:
-    process.env.MOESIF_APPLICATION_ID || "Your Moesif Application Id",
+    process.env.MOESIF_APPLICATION_ID || "Your Application Id",
 
   debug: true,
 
@@ -49,4 +49,8 @@ const moesifOptions = {
   },
 };
 
-export default moesif(moesifOptions);
+const moesifMiddleware = moesif(moesifOptions);
+
+moesifMiddleware.startCaptureOutgoing();
+
+export default moesifMiddleware;
