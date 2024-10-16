@@ -41,7 +41,7 @@ npm run dev
 4. Send some requests to some of the routes and verify that the API calls are captured in your Moesif account.
 
 ```bash
-curl --location --request GET 'http://localhost:3000/api/goodbye/' \
+curl --location --request GET 'curl http://localhost:3000/api/timetable' \
 --header 'Content-Type: application/json' \
 --header 'my-user-id: my-user-id' \
 --header 'my-company-id: my-company-id'
