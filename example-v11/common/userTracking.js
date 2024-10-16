@@ -12,7 +12,8 @@ if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
 
   import('moesif-browser-js').then((moesif) => {
     moesif.init({
-      applicationId: 'your application id'
+      applicationId: 'your PUBLISHABLE application id'
+      // on the client side, please be sure to use publishable application id.
     });
     // this below assigns moesif object to the modually global moesif object.
     globalMoesif = moesif;
