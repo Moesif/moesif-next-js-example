@@ -20,5 +20,5 @@ This repo have 2 examples Next.js applications with Moesif's API analytics and m
 
 ### Example V14
 
-[Example V11](/example-v14/) is for Nextjs newer than 14, and with the new app router, which changed the signature of handler.
+[Example V14](/example-v14/) is for Nextjs newer than 14, and with the new app router, which changed the signature of handler.
 
