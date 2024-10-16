@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "moesif-browser-js": "^1.8.13",
-    "moesif-nodejs": "file:/Users/Xingheng/Moesif/repos/moesif-nodejs/moesif-nodejs-3.8.1.tgz",
+    "moesif-nodejs": "3.8.1",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18"

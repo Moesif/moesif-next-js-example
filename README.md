@@ -9,7 +9,7 @@ is a middleware for SERVER that makes integration with Moesif easy for Nodejs ba
 
 [moesif-browser-js](https://github.com/Moesif/moesif-browser-js) is a BROWSER only libraries that tracks user actions and user profiles so that you can tie those actions to the APIs. moesif-browser-js only runs in the browser, since next.js support server side rendering, there are some things you need to do to ensure only import moesif-browser-js on client side.
 
-This example is a Next.js application with Moesif's API analytics and monitoring integrated.
+This repo have 2 examples Next.js applications with Moesif's API analytics and monitoring integrated.
 
 
 ## There are two examples
