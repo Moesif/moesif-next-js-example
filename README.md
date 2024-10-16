@@ -1,4 +1,4 @@
-# Moesif Next.js Example
+# Moesif Next.js Examples
 
 [Next](https://nextjs.org) is a popular React framework that gives you building blocks to create web applications. It primarily focus on building web UI, but it also supports building APIs on the sever side as well.
 
